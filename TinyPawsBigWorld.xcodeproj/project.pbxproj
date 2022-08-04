@@ -19,6 +19,8 @@
 		BDAB5313289C371B0004B241 /* countriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5312289C371B0004B241 /* countriesViewController.swift */; };
 		BDAB5315289C374C0004B241 /* commonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5314289C374C0004B241 /* commonViewController.swift */; };
 		BDAB5317289C376A0004B241 /* percentageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5316289C376A0004B241 /* percentageViewController.swift */; };
+		BDAB531B289C79D40004B241 /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB531A289C79D40004B241 /* VideoFile.swift */; };
+		BDAB531D289C7FC90004B241 /* linksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB531C289C7FC90004B241 /* linksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		BDAB5312289C371B0004B241 /* countriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countriesViewController.swift; sourceTree = "<group>"; };
 		BDAB5314289C374C0004B241 /* commonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonViewController.swift; sourceTree = "<group>"; };
 		BDAB5316289C376A0004B241 /* percentageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = percentageViewController.swift; sourceTree = "<group>"; };
+		BDAB531A289C79D40004B241 /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
+		BDAB531C289C7FC90004B241 /* linksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		BD60D4A92899C57500EB7428 = {
 			isa = PBXGroup;
 			children = (
+				BDAB531A289C79D40004B241 /* VideoFile.swift */,
 				BD60D4B42899C57500EB7428 /* TinyPawsBigWorld */,
 				BD60D4B32899C57500EB7428 /* Products */,
 			);
@@ -72,6 +77,7 @@
 				BD60D4B72899C57500EB7428 /* SceneDelegate.swift */,
 				BD60D4B92899C57500EB7428 /* ViewController.swift */,
 				BD60D4BB2899C57500EB7428 /* Main.storyboard */,
+				BDAB531C289C7FC90004B241 /* linksViewController.swift */,
 				BDAB5316289C376A0004B241 /* percentageViewController.swift */,
 				BDAB5314289C374C0004B241 /* commonViewController.swift */,
 				BDAB5312289C371B0004B241 /* countriesViewController.swift */,
@@ -158,9 +164,11 @@
 			files = (
 				BDAB530F289C36D90004B241 /* TestingUSViewController.swift in Sources */,
 				BD60D4BA2899C57500EB7428 /* ViewController.swift in Sources */,
+				BDAB531D289C7FC90004B241 /* linksViewController.swift in Sources */,
 				BDAB5313289C371B0004B241 /* countriesViewController.swift in Sources */,
 				BD60D4B62899C57500EB7428 /* AppDelegate.swift in Sources */,
 				BDAB5311289C36FF0004B241 /* millionViewController.swift in Sources */,
+				BDAB531B289C79D40004B241 /* VideoFile.swift in Sources */,
 				BDAB5315289C374C0004B241 /* commonViewController.swift in Sources */,
 				BD60D4C02899C57500EB7428 /* TinyPawsBigWorld.xcdatamodeld in Sources */,
 				BDAB5317289C376A0004B241 /* percentageViewController.swift in Sources */,
