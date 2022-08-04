@@ -14,6 +14,11 @@
 		BD60D4C02899C57500EB7428 /* TinyPawsBigWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD60D4BE2899C57500EB7428 /* TinyPawsBigWorld.xcdatamodeld */; };
 		BD60D4C22899C57700EB7428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60D4C12899C57700EB7428 /* Assets.xcassets */; };
 		BD60D4C52899C57700EB7428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD60D4C32899C57700EB7428 /* LaunchScreen.storyboard */; };
+		BDAB530F289C36D90004B241 /* TestingUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB530E289C36D90004B241 /* TestingUSViewController.swift */; };
+		BDAB5311289C36FF0004B241 /* millionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5310289C36FF0004B241 /* millionViewController.swift */; };
+		BDAB5313289C371B0004B241 /* countriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5312289C371B0004B241 /* countriesViewController.swift */; };
+		BDAB5315289C374C0004B241 /* commonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5314289C374C0004B241 /* commonViewController.swift */; };
+		BDAB5317289C376A0004B241 /* percentageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5316289C376A0004B241 /* percentageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		BD60D4C12899C57700EB7428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD60D4C42899C57700EB7428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD60D4C62899C57700EB7428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAB530E289C36D90004B241 /* TestingUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUSViewController.swift; sourceTree = "<group>"; };
+		BDAB5310289C36FF0004B241 /* millionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = millionViewController.swift; sourceTree = "<group>"; };
+		BDAB5312289C371B0004B241 /* countriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countriesViewController.swift; sourceTree = "<group>"; };
+		BDAB5314289C374C0004B241 /* commonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonViewController.swift; sourceTree = "<group>"; };
+		BDAB5316289C376A0004B241 /* percentageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = percentageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 				BD60D4B72899C57500EB7428 /* SceneDelegate.swift */,
 				BD60D4B92899C57500EB7428 /* ViewController.swift */,
 				BD60D4BB2899C57500EB7428 /* Main.storyboard */,
+				BDAB5316289C376A0004B241 /* percentageViewController.swift */,
+				BDAB5314289C374C0004B241 /* commonViewController.swift */,
+				BDAB5312289C371B0004B241 /* countriesViewController.swift */,
+				BDAB5310289C36FF0004B241 /* millionViewController.swift */,
+				BDAB530E289C36D90004B241 /* TestingUSViewController.swift */,
 				BD60D4C12899C57700EB7428 /* Assets.xcassets */,
 				BD60D4C32899C57700EB7428 /* LaunchScreen.storyboard */,
 				BD60D4C62899C57700EB7428 /* Info.plist */,
@@ -141,9 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAB530F289C36D90004B241 /* TestingUSViewController.swift in Sources */,
 				BD60D4BA2899C57500EB7428 /* ViewController.swift in Sources */,
+				BDAB5313289C371B0004B241 /* countriesViewController.swift in Sources */,
 				BD60D4B62899C57500EB7428 /* AppDelegate.swift in Sources */,
+				BDAB5311289C36FF0004B241 /* millionViewController.swift in Sources */,
+				BDAB5315289C374C0004B241 /* commonViewController.swift in Sources */,
 				BD60D4C02899C57500EB7428 /* TinyPawsBigWorld.xcdatamodeld in Sources */,
+				BDAB5317289C376A0004B241 /* percentageViewController.swift in Sources */,
 				BD60D4B82899C57500EB7428 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
