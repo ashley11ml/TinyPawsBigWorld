@@ -8,7 +8,7 @@
 import UIKit
 
 class countriesViewController: UIViewController {
-    var totalPoints: Int = 0
+    var totalPoints = 0
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
@@ -17,6 +17,7 @@ class countriesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func fourtyone(_ sender: Any) {
+        totalPoints += 1
         answerLabel.text = "right"
         answerInfo.text = "As of 2022, 41 countries worldwide have banned or restricted animal testing, including those in the European Union."
     }
@@ -30,12 +31,12 @@ class countriesViewController: UIViewController {
     
     @IBAction func button(_ sender: Any) {
         performSegue(withIdentifier: "goToCommon", sender: self)
-        
+        print("countries \(totalPoints)")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! commonViewController
-        destinationVC.totalPoints += totalPoints
+        destinationVC.totalPoints = totalPoints
         
     }
     

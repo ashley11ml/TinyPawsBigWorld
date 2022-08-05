@@ -41,6 +41,7 @@ class TestingUSViewController: UIViewController {
     }
     @IBAction func button(_ sender: Any) {
         performSegue(withIdentifier: "goToMillions", sender: self)
+        print("animals \(totalPoints)")
     }
     
 

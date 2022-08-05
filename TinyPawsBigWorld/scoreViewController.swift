@@ -9,7 +9,7 @@ import UIKit
 
 class scoreViewController: UIViewController {
     //var totalPoints = 0
-    var totalPoints: Int = 0
+    var totalPoints = 0
     
     
     
@@ -18,7 +18,8 @@ class scoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        answerLabel.text = "Congratulations!!!! You earned \(5) points"
+        answerLabel.text = "Congratulations!!!! You earned \(totalPoints) points"
+        print("final \(totalPoints)")
         // Do any additional setup after loading the view.
     }
     

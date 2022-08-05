@@ -8,7 +8,7 @@
 import UIKit
 
 class commonViewController: UIViewController {
-    var totalPoints: Int = 0
+    var totalPoints = 0
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
@@ -24,6 +24,7 @@ class commonViewController: UIViewController {
     }
     
     @IBAction func MR(_ sender: Any) {
+        totalPoints += 1
         answerLabel.text = "right"
         answerInfo.text = "Mice and rats make up 95% of all laboratory animals, causing them to be the most commonly used animals in animal testing."
         
@@ -31,11 +32,12 @@ class commonViewController: UIViewController {
     
     
     @IBAction func button(_ sender: Any) {performSegue(withIdentifier: "goToPercentage", sender: self )
+        print("common \(totalPoints)")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! percentageViewController
-        destinationVC.totalPoints += totalPoints
+        destinationVC.totalPoints = totalPoints
     
     
 

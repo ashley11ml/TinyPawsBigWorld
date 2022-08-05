@@ -8,7 +8,7 @@
 import UIKit
 
 class percentageViewController: UIViewController {
-    var totalPoints: Int = 0
+    var totalPoints = 0
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
@@ -23,17 +23,19 @@ class percentageViewController: UIViewController {
         answerLabel.text = "wrong"
     }
     @IBAction func ninetyeight(_ sender: Any) {
+        totalPoints += 1
         answerLabel.text = "right"
         answerInfo.text = "Over 98% of drugs tested on animals are never sold in stores."
     }
     
     
     @IBAction func button(_ sender: Any) {performSegue(withIdentifier: "goToScore", sender: self)
+        print("drugs \(totalPoints)")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! scoreViewController
-        destinationVC.totalPoints += totalPoints
+        destinationVC.totalPoints = totalPoints
     
 
     /*
