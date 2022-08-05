@@ -10,6 +10,7 @@ import UIKit
 class countriesViewController: UIViewController {
 
     @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +18,7 @@ class countriesViewController: UIViewController {
     }
     @IBAction func fourtyone(_ sender: Any) {
         answerLabel.text = "right"
+        answerInfo.text = "As of 2022, 41 countries worldwide have banned or restricted animal testing, including those in the European Union."
     }
     @IBAction func eightyseven(_ sender: Any) {
         answerLabel.text = "wrong"

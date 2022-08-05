@@ -10,6 +10,7 @@ import UIKit
 class commonViewController: UIViewController {
 
     @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +24,9 @@ class commonViewController: UIViewController {
     }
     
     @IBAction func MR(_ sender: Any) {
-        answerLabel.text = "righttt"
+        answerLabel.text = "right"
+        answerInfo.text = "Mice and rats make up 95% of all laboratory animals, causing them to be the most commonly used animals in animal testing."
+        
     }
     
     

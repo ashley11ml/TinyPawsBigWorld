@@ -10,6 +10,7 @@ import UIKit
 class millionViewController: UIViewController {
 
     @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,7 +25,8 @@ class millionViewController: UIViewController {
         answerLabel.text = "wrong"
     }
     @IBAction func hundredten(_ sender: Any) {
-        answerLabel.text = "righttt"
+        answerLabel.text = "right"
+        answerInfo.text = "More than 110 million animals, including rabbits, mice, dogs, and cats are killed annually in U.S. laboratories."
     }
     
 
