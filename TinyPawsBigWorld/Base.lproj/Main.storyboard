@@ -241,7 +241,7 @@
                                 <rect key="frame" x="38" y="478" width="341" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="PRODUCTS">
+                                <buttonConfiguration key="configuration" style="tinted" title="CRUELTY-FREE LOGOS">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.81960785390000002" green="0.73725497719999999" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
@@ -296,13 +296,8 @@
                                     <segue destination="aIQ-dV-SCv" kind="presentation" modalPresentationStyle="fullScreen" id="ma5-jH-5Mf"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo4" translatesAutoresizingMaskIntoConstraints="NO" id="86p-7Q-9z1">
-                                <rect key="frame" x="51" y="44" width="318" height="136"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSS-LU-tP3">
-                                <rect key="frame" x="45" y="275" width="334" height="195"/>
+                                <rect key="frame" x="45" y="256" width="334" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Animal testing has been used for a long time, but is it the right choice? This app gives you suggestions on how to help, speaks about animal testing, and allows you to take a quiz with more information.</string>
@@ -312,6 +307,11 @@
                                 <color key="shadowColor" red="0.96862745289999996" green="0.94117647410000005" blue="0.88235294819999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo4" translatesAutoresizingMaskIntoConstraints="NO" id="86p-7Q-9z1">
+                                <rect key="frame" x="36" y="44" width="343" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -953,7 +953,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="rXG-IL-9ER"/>
-        <segue reference="xYs-9k-bCu"/>
+        <segue reference="hOI-n4-Wvz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="flower2" width="900" height="1600"/>
