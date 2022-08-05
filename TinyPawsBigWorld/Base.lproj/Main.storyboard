@@ -372,7 +372,7 @@
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="a3B-K5-rtF" kind="show" id="Fzc-MH-0yh"/>
+                                    <action selector="button:" destination="aIQ-dV-SCv" eventType="touchUpInside" id="NSg-T1-914"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeK-YU-meh">
@@ -432,6 +432,7 @@
                     <connections>
                         <outlet property="answerInfo" destination="byv-oJ-V1d" id="nBB-0L-24t"/>
                         <outlet property="answerLabel" destination="oeO-gH-YNc" id="0aq-AF-x3y"/>
+                        <segue destination="a3B-K5-rtF" kind="show" identifier="goToMillions" id="xfm-qJ-T9F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J8a-Ym-saf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -501,13 +502,13 @@
                                 <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3p-3K-BMR">
-                                <rect key="frame" x="292" y="568" width="83" height="39"/>
+                                <rect key="frame" x="292" y="534" width="83" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.72156864399999998" green="0.65098041299999998" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
-                                    <segue destination="2dp-Fa-0Xv" kind="show" id="IvN-Me-Kzj"/>
+                                    <action selector="buttonToCountries:" destination="a3B-K5-rtF" eventType="touchUpInside" id="xdT-ra-6Tx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -518,6 +519,7 @@
                     <connections>
                         <outlet property="answerInfo" destination="XyL-JR-kUh" id="Obd-ov-vhr"/>
                         <outlet property="answerLabel" destination="jIP-pI-Apv" id="5rD-Kf-lpY"/>
+                        <segue destination="2dp-Fa-0Xv" kind="show" identifier="goToCountries" id="gdR-5E-riL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5X-nP-yRK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -595,7 +597,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
-                                    <segue destination="oxe-dt-69Q" kind="show" id="B5Q-3h-HLk"/>
+                                    <action selector="button:" destination="2dp-Fa-0Xv" eventType="touchUpInside" id="J2q-rB-vMQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -606,6 +608,7 @@
                     <connections>
                         <outlet property="answerInfo" destination="Dhk-sD-Yto" id="GHA-gP-ruK"/>
                         <outlet property="answerLabel" destination="Mom-r3-eBP" id="dDe-6q-uP4"/>
+                        <segue destination="oxe-dt-69Q" kind="show" identifier="goToCommon" id="a3L-QG-fOZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dQv-Ie-Uxt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -651,7 +654,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
-                                    <segue destination="ZEl-NP-cR7" kind="show" id="uNn-UY-PhZ"/>
+                                    <action selector="button:" destination="oxe-dt-69Q" eventType="touchUpInside" id="uSE-h0-Mr2"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layout" translatesAutoresizingMaskIntoConstraints="NO" id="7BA-4L-KPl">
@@ -692,6 +695,7 @@
                     <connections>
                         <outlet property="answerInfo" destination="SxV-I4-n84" id="wER-GF-AYm"/>
                         <outlet property="answerLabel" destination="0Cy-hl-7QH" id="Udo-wL-lXd"/>
+                        <segue destination="ZEl-NP-cR7" kind="show" identifier="goToPercentage" id="MNF-vN-ZD6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2FF-ef-XgY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -757,6 +761,9 @@
                                 <color key="tintColor" red="0.64204547440000004" green="0.56864946819999995" blue="0.3412889818" alpha="0.64054739240000003" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Get Results "/>
+                                <connections>
+                                    <action selector="button:" destination="ZEl-NP-cR7" eventType="touchUpInside" id="xVb-V0-OhH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8B-KI-llD">
                                 <rect key="frame" x="166" y="327" width="87" height="29"/>
@@ -786,18 +793,20 @@
                     <connections>
                         <outlet property="answerInfo" destination="Ig9-0z-C2n" id="edV-la-932"/>
                         <outlet property="answerLabel" destination="qf0-Wz-GsI" id="hoe-WH-oCA"/>
+                        <segue destination="GPg-p0-lHO" kind="show" identifier="goToScore" id="rXG-IL-9ER"/>
+                        <segue destination="GPg-p0-lHO" kind="show" id="ynO-dc-WKb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sm4-lK-Trf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3679.7101449275365" y="75.669642857142847"/>
+            <point key="canvasLocation" x="3706" y="76"/>
         </scene>
-        <!--View Controller-->
+        <!--Score View Controller-->
         <scene sceneID="iGC-lM-jfB">
             <objects>
-                <viewController id="GPg-p0-lHO" sceneMemberID="viewController">
+                <viewController id="GPg-p0-lHO" customClass="scoreViewController" customModule="TinyPawsBigWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3uT-fK-7A8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper " translatesAutoresizingMaskIntoConstraints="NO" id="hKq-gs-jQO">
@@ -816,7 +825,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ5-uz-FxN">
-                                <rect key="frame" x="143" y="567" width="154" height="38"/>
+                                <rect key="frame" x="240" y="588" width="154" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.64204547440000004" green="0.56864946819999995" blue="0.3412889818" alpha="0.64054739240000003" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -829,6 +838,10 @@
                         <viewLayoutGuide key="safeArea" id="9F7-jI-vu0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jyJ-b7-kmi"/>
+                    <connections>
+                        <outlet property="answerLabel" destination="qsW-Ik-V7j" id="29O-Ta-Til"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g8L-93-5cT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -939,7 +952,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hOI-n4-Wvz"/>
+        <segue reference="rXG-IL-9ER"/>
+        <segue reference="xYs-9k-bCu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="flower2" width="900" height="1600"/>

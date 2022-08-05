@@ -8,7 +8,7 @@
 import UIKit
 
 class commonViewController: UIViewController {
-
+    var totalPoints: Int = 0
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
@@ -30,6 +30,13 @@ class commonViewController: UIViewController {
     }
     
     
+    @IBAction func button(_ sender: Any) {performSegue(withIdentifier: "goToPercentage", sender: self )
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! percentageViewController
+        destinationVC.totalPoints += totalPoints
+    
     
 
     /*
@@ -43,3 +50,5 @@ class commonViewController: UIViewController {
     */
 
 }
+}
+

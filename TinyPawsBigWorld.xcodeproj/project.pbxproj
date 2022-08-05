@@ -21,6 +21,7 @@
 		BDAB5317289C376A0004B241 /* percentageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB5316289C376A0004B241 /* percentageViewController.swift */; };
 		BDAB531B289C79D40004B241 /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB531A289C79D40004B241 /* VideoFile.swift */; };
 		BDAB531D289C7FC90004B241 /* linksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB531C289C7FC90004B241 /* linksViewController.swift */; };
+		BDB17105289D904000ABF4D7 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB17104289D904000ABF4D7 /* scoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		BDAB5316289C376A0004B241 /* percentageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = percentageViewController.swift; sourceTree = "<group>"; };
 		BDAB531A289C79D40004B241 /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
 		BDAB531C289C7FC90004B241 /* linksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linksViewController.swift; sourceTree = "<group>"; };
+		BDB17104289D904000ABF4D7 /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				BD60D4B72899C57500EB7428 /* SceneDelegate.swift */,
 				BD60D4B92899C57500EB7428 /* ViewController.swift */,
 				BD60D4BB2899C57500EB7428 /* Main.storyboard */,
+				BDB17104289D904000ABF4D7 /* scoreViewController.swift */,
 				BDAB531C289C7FC90004B241 /* linksViewController.swift */,
 				BDAB5316289C376A0004B241 /* percentageViewController.swift */,
 				BDAB5314289C374C0004B241 /* commonViewController.swift */,
@@ -169,6 +172,7 @@
 				BD60D4B62899C57500EB7428 /* AppDelegate.swift in Sources */,
 				BDAB5311289C36FF0004B241 /* millionViewController.swift in Sources */,
 				BDAB531B289C79D40004B241 /* VideoFile.swift in Sources */,
+				BDB17105289D904000ABF4D7 /* scoreViewController.swift in Sources */,
 				BDAB5315289C374C0004B241 /* commonViewController.swift in Sources */,
 				BD60D4C02899C57500EB7428 /* TinyPawsBigWorld.xcdatamodeld in Sources */,
 				BDAB5317289C376A0004B241 /* percentageViewController.swift in Sources */,

@@ -8,9 +8,14 @@
 import UIKit
 
 class millionViewController: UIViewController {
+    //var totalPoints = 0
+    var totalPoints: Int = 0
 
+   
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var answerInfo: UILabel!
+    // var totalPoints = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,11 +30,22 @@ class millionViewController: UIViewController {
         answerLabel.text = "wrong"
     }
     @IBAction func hundredten(_ sender: Any) {
+        totalPoints+=1;
         answerLabel.text = "right"
         answerInfo.text = "More than 110 million animals, including rabbits, mice, dogs, and cats are killed annually in U.S. laboratories."
     }
     
-
+    
+    
+    @IBAction func buttonToCountries(_ sender: Any) {
+        performSegue(withIdentifier: "goToCountries", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! countriesViewController
+        destinationVC.totalPoints += totalPoints
+        
+    }
+        
     /*
     // MARK: - Navigation
 

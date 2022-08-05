@@ -8,7 +8,7 @@
 import UIKit
 
 class countriesViewController: UIViewController {
-
+    var totalPoints: Int = 0
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var answerInfo: UILabel!
     override func viewDidLoad() {
@@ -25,6 +25,18 @@ class countriesViewController: UIViewController {
     }
     @IBAction func thirtyseven(_ sender: Any) {
         answerLabel.text = "wrong"
+    }
+    
+    
+    @IBAction func button(_ sender: Any) {
+        performSegue(withIdentifier: "goToCommon", sender: self)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! commonViewController
+        destinationVC.totalPoints += totalPoints
+        
     }
     
     
